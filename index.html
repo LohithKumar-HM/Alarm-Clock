@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Alarm Clock</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Alarm Clock</h1>
+    <div id="clock">00:00:00</div>
+
+    <div class="set-alarm">
+      <select id="hours"></select>
+      <select id="minutes"></select>
+      <select id="seconds"></select>
+      <select id="ampm">
+        <option value="AM">AM</option>
+        <option value="PM">PM</option>
+      </select>
+    </div>
+
+    <div class="buttons">
+      <button id="setAlarmBtn">Set Alarm</button>
+      <button id="clearAlarmBtn">Clear Alarm</button>
+    </div>
+
+    <!-- <audio id="alarmAudio" src="https://www.soundjay.com/button/sounds/beep-07.mp3" preload="auto"></audio> -->
+     <audio id="alarmAudio" src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" preload="auto"></audio>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
