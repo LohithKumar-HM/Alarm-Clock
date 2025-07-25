@@ -50,7 +50,7 @@ setAlarmBtn.addEventListener("click", () => {
   hr = hr % 12 || 12;
 
   if((hour < hr && ampm === ampmi )|| (hour >= hr && minute < min && ampm === ampmi) || (hour >= hr && minute >= min && second <= sec && ampm === ampmi)){
-    alert("cant")
+    alert("Can't set Alarm : Set the TIME greater than current Time")
   }
   else{
 
